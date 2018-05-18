@@ -1,0 +1,33 @@
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-image: url(http://3.bp.blogspot.com/-iFi1vfVXVEU/UQhxwf0ZEkI/AAAAAAAAApc/3sUoI_D8hr4/s1600/Orange_Background.jpg);
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  font-family: Avenir;
+}
+
+header img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav{
+  text-align: center;
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 20px;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
